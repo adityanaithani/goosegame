@@ -1,5 +1,6 @@
 const dino = document.getElementById("dino");
 const cactus = document.getElementById("cactus");
+var audio = new Audio('bonk.mp3');
 
 function jump() {
     if (dino.classList != "jump"){
@@ -20,7 +21,7 @@ let isAlive = setInterval(function () {
     //detect collision
     if (cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140){
         //coliision
-        
+        audio.play();
         if(!alert('You let the goose die :(')){window.location.reload();}
 
     }

@@ -50,6 +50,17 @@
     animation: block 1s infinite linear;
 }
 
+#cloud {
+    width: 60px;
+    height: 20px;
+    position: relative;
+    top: 30px;
+    left: 500px;
+    background-color: black;
+    animation: block 1.5s infinite linear;
+
+}
+
 @keyframes block {
     0% {
         left: 580px;
@@ -59,3 +70,4 @@
         left: -20px;
     }
 }
+

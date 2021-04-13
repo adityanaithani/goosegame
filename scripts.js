@@ -1,6 +1,6 @@
 const dino = document.getElementById("dino");
 const cactus = document.getElementById("cactus");
-var audio = new Audio('bonk.mp3');
+const audio = new Audio('bonk.mp3');
 
 function jump() {
     if (dino.classList != "jump"){
